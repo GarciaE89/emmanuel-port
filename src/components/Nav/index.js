@@ -34,7 +34,7 @@ function Nav(props) {
                         color: props.pageSel === "contact" ? "#b7b7a4" : "grayish yellow",
                       }}
                      onClick={() => {
-                        clickHandler("Contact");
+                        clickHandler("contact");
                     }}
                     >
                         <span>Contact</span>

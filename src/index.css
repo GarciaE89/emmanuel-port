@@ -311,3 +311,13 @@ a {
   display: inline-block;
   padding: 0px 10px 0px 0px;
 }
+#contact-form {
+  align-items: left;
+  width: 100%;
+  padding: 20px;
+
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
