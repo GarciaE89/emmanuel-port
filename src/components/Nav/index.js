@@ -1,34 +1,66 @@
 import React from 'react';
 
-function Nav() {
+function Nav(props) {
+    function clickHandler(page) {
+        props.pageSelect(page);
+    }
+    return (
+        <header className='flex-row px-1'
+            onClick={() => {
+                clickHandler("home");
+            }}
+        >
+            <h1>
 
-  return (
-    <header>
-        <h2>
-    <a href="/">
-      <span role="img" aria-label="male technologiest">👨🏽‍💻</span> Emmanuel Garcia
-    </a>
-  </h2>
-  <nav>
-    <ul className="flex-row">
-      <li className="mx-2">
-        <a href="#about">
-          About me
-        </a>
-      </li>
-      <li className="mx-2">
-        <span>Contact</span>
-      </li>
-      <li className="mx-2">
-        <span>Portfolio</span>
-      </li>
-      <li className="mx-2">
-        <span>Resume</span>
-      </li>
-    </ul>
-  </nav>
-    </header>
-  );
+                <span role="img" aria-label="male technologiest">👨🏽‍💻</span> Emmanuel Garcia
+
+            </h1>
+            <nav>
+                <ul className="flex-row">
+                    <li className="mx-2"
+                    style={{
+                        color: props.selectedPage === "about" ? "#7da4e3" : "blue",
+                      }}
+                        onClick={() => {
+                            clickHandler("about");
+                        }}
+                    >
+                         <span>About Me</span>
+                    </li>
+                    <li className="mx-2"
+                    style={{
+                        color: props.selectedPage === "contact" ? "#7da4e3" : "blue",
+                      }}
+                     onClick={() => {
+                        clickHandler("Contact");
+                    }}
+                    >
+                        <span>Contact</span>
+                    </li>
+                    <li className="mx-2"
+                    style={{
+                        color: props.selectedPage === "portfolio" ? "#7da4e3" : "blue",
+                      }}
+                     onClick={() => {
+                        clickHandler("portfolio");
+                    }}>
+                        <span>Portfolio</span>
+                    </li>
+                    <li className="mx-2"
+                    style={{
+                        color: props.selectedPage === "resume" ? "#7da4e3" : "blue",
+                      }}
+                     onClick={() => {
+                        clickHandler("resume");
+                    }}
+                    >
+                        <span>Resume</span>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+    );
 }
+
 
 export default Nav;
