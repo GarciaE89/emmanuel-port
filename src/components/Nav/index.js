@@ -2,7 +2,7 @@ import React from 'react';
 
 function Nav(props) {
     function clickHandler(page) {
-        props.pageSelect(page);
+        props.pageSel(page);
     }
     return (
         <header className='flex-row px-1'
@@ -19,7 +19,7 @@ function Nav(props) {
                 <ul className="flex-row">
                     <li className="mx-2"
                     style={{
-                        color: props.selectedPage === "about" ? "#7da4e3" : "blue",
+                        color: props.pageSel === "about" ? "#7da4e3" : "blue",
                       }}
                         onClick={() => {
                             clickHandler("about");
@@ -29,7 +29,7 @@ function Nav(props) {
                     </li>
                     <li className="mx-2"
                     style={{
-                        color: props.selectedPage === "contact" ? "#7da4e3" : "blue",
+                        color: props.pageSel === "contact" ? "#7da4e3" : "blue",
                       }}
                      onClick={() => {
                         clickHandler("Contact");
@@ -39,7 +39,7 @@ function Nav(props) {
                     </li>
                     <li className="mx-2"
                     style={{
-                        color: props.selectedPage === "portfolio" ? "#7da4e3" : "blue",
+                        color: props.pageSel === "portfolio" ? "#7da4e3" : "blue",
                       }}
                      onClick={() => {
                         clickHandler("portfolio");
@@ -48,7 +48,7 @@ function Nav(props) {
                     </li>
                     <li className="mx-2"
                     style={{
-                        color: props.selectedPage === "resume" ? "#7da4e3" : "blue",
+                        color: props.pageSel === "resume" ? "#7da4e3" : "blue",
                       }}
                      onClick={() => {
                         clickHandler("resume");

@@ -1,5 +1,5 @@
 import React from "react";
-
+import resume from "../../assets/resume/Emmanuel Resume 08-2021.docx"
 function Resume() {
     return (
         <div>
