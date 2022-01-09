@@ -5,6 +5,7 @@ function Nav(props) {
         props.pageSel(page);
     }
     return (
+        <div>
         <header className='flex-row px-1'
             onClick={() => {
                 clickHandler("home");
@@ -15,6 +16,7 @@ function Nav(props) {
                 <span role="img" aria-label="male technologiest">👨🏽‍💻</span> Emmanuel Garcia
 
             </h1>
+            </header>
             <nav>
                 <ul className="flex-row">
                     <li className="mx-2"
@@ -58,7 +60,8 @@ function Nav(props) {
                     </li>
                 </ul>
             </nav>
-        </header>
+            </div>
+        
     );
 }
 
