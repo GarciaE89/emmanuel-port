@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/emmanuel-port/static/css/main.698119a8.css",
+    "main.js": "/emmanuel-port/static/js/main.94e4716b.js",
+    "static/js/787.18bd63b1.chunk.js": "/emmanuel-port/static/js/787.18bd63b1.chunk.js",
+    "static/media/Markplace.png": "/emmanuel-port/static/media/Markplace.ff764d0d3e0624527984.png",
+    "static/media/Gametradez.png": "/emmanuel-port/static/media/Gametradez.c12dff81aedcf1e68abd.png",
+    "static/media/E-Commerce-backend.png": "/emmanuel-port/static/media/E-Commerce-backend.8cc216d7879387cb10e4.png",
+    "static/media/pwa-budget-tracker.png": "/emmanuel-port/static/media/pwa-budget-tracker.5a01b15c80650689a6e3.png",
+    "static/media/Text-me-Today.png": "/emmanuel-port/static/media/Text-me-Today.c3879891ddf731af7620.png",
+    "static/media/password generator.png": "/emmanuel-port/static/media/password generator.921b5a7511e2e1108b31.png",
+    "static/media/Emmanuel Resume 08-2021.docx": "/emmanuel-port/static/media/Emmanuel Resume 08-2021.5c77d8700e6d0f6812fa.docx",
+    "index.html": "/emmanuel-port/index.html",
+    "main.698119a8.css.map": "/emmanuel-port/static/css/main.698119a8.css.map",
+    "main.94e4716b.js.map": "/emmanuel-port/static/js/main.94e4716b.js.map",
+    "787.18bd63b1.chunk.js.map": "/emmanuel-port/static/js/787.18bd63b1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.698119a8.css",
+    "static/js/main.94e4716b.js"
+  ]
+}
