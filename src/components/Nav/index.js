@@ -5,8 +5,8 @@ function Nav(props) {
         props.pageSel(page);
     }
     return (
-        <div>
-        <header className='flex-row px-1'
+        <div className="navbar-main">
+        <header className='flex-row'
             onClick={() => {
                 clickHandler("home");
             }}
@@ -21,7 +21,7 @@ function Nav(props) {
                 <ul className="flex-row">
                     <li className="mx-2"
                     style={{
-                        color: props.pageSel === "about" ? "#7da4e3" : "blue",
+                        color: props.pageSel === "about" ? "#b7b7a4" : "grayish yellow",
                       }}
                         onClick={() => {
                             clickHandler("about");
@@ -31,7 +31,7 @@ function Nav(props) {
                     </li>
                     <li className="mx-2"
                     style={{
-                        color: props.pageSel === "contact" ? "#7da4e3" : "blue",
+                        color: props.pageSel === "contact" ? "#b7b7a4" : "grayish yellow",
                       }}
                      onClick={() => {
                         clickHandler("Contact");
@@ -41,7 +41,7 @@ function Nav(props) {
                     </li>
                     <li className="mx-2"
                     style={{
-                        color: props.pageSel === "portfolio" ? "#7da4e3" : "blue",
+                        color: props.pageSel === "portfolio" ? "#b7b7a4" : "grayish yellow",
                       }}
                      onClick={() => {
                         clickHandler("portfolio");
@@ -50,7 +50,7 @@ function Nav(props) {
                     </li>
                     <li className="mx-2"
                     style={{
-                        color: props.pageSel === "resume" ? "#7da4e3" : "blue",
+                        color: props.pageSel === "resume" ? "#b7b7a4" : "grayish yellow",
                       }}
                      onClick={() => {
                         clickHandler("resume");
