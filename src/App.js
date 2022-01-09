@@ -6,6 +6,7 @@ import Nav from './components/Nav';
 import Contact from "./components/Contact";
 import Portfolio from "./components/Portfolio";
 import Resume from './components/Resume';
+import Footer from './components/Footer';
 
 // import './App.css'
 
@@ -33,6 +34,7 @@ function App() {
         <Nav pageSel={setPageSelected} selPage={pageSelected}></Nav>
 
         {getPage()}
+        <Footer></Footer>
       </div>
     </div>
   );
