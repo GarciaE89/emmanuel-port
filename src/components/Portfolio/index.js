@@ -26,6 +26,7 @@ function Portfolio() {
                     githuburl="https://github.com/GarciaE89/PWA-Budget-Tracker" />
 
                 <PortfolioCard title="E-Commerce Back end" assetpath={Ecommerce}
+                url="https://www.youtube.com/watch?v=TmH8rRYwcTM"
                     githuburl="https://github.com/GarciaE89/E-commerce-Back-End" />
 
                 <PortfolioCard title="Random Password Generator" assetpath={PassWordGenerator} 
