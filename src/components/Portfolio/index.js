@@ -1,5 +1,12 @@
-import React, { useState } from "react";
+import React from "react";
 import PortfolioCard from "./PortfolioCard";
+import Gametradez from "../../assets/projects-pics/Gametradez.png";
+import BudgetTracker from "../../assets/projects-pics/pwa-budget-tracker.png";
+import PassWordGenerator from "../../assets/projects-pics/password generator.png";
+import Ecommerce from "../../assets/projects-pics/E-Commerce-backend.png";
+import TextMeToday from "../../assets/projects-pics/Text-me-Today.png";
+import MarketPlace from "../../assets/projects-pics/Markplace.png";
+
 
 
 function Portfolio() {
@@ -9,31 +16,30 @@ function Portfolio() {
                 Projects
             </h1>
             <section className="flex-row">
-                <PortfolioCard title="Gametradez" assetpath={require(`../../assets/projects-pics/Gametradez.png`).default
-                } url="https://protected-anchorage-01372.herokuapp.com/"
+                <PortfolioCard title="Gametradez" assetpath={Gametradez}
+                url="https://protected-anchorage-01372.herokuapp.com/"
                     githuburl="https://github.com/GarciaE89/gametradez"
                 />
 
-                <PortfolioCard title="PWA Budget Tracker" assetpath={require(`../../assets/projects-pics/pwa-budget-tracker.png`).default
-                } url=" https://secret-castle-54232.herokuapp.com/"
+                <PortfolioCard title="PWA Budget Tracker" assetpath={BudgetTracker} 
+                url=" https://secret-castle-54232.herokuapp.com/"
                     githuburl="https://github.com/GarciaE89/PWA-Budget-Tracker" />
 
-                <PortfolioCard title="E-Commerce Back end" assetpath={require(`../../assets/projects-pics/E-Commerce-backend.png`).default
-                }
+                <PortfolioCard title="E-Commerce Back end" assetpath={Ecommerce}
                     githuburl="https://github.com/GarciaE89/E-commerce-Back-End" />
 
-                <PortfolioCard title="Random Password Generator" assetpath={require(`../../assets/projects-pics/password generator.png`).default
-                } url="https://garciae89.github.io/your-password-is-incorrect/"
+                <PortfolioCard title="Random Password Generator" assetpath={PassWordGenerator} 
+                url="https://garciae89.github.io/your-password-is-incorrect/"
                     githuburl="https://github.com/GarciaE89/your-password-is-incorrect"
                 />
 
-                <PortfolioCard title="Text me Today" assetpath={require(`../../assets/projects-pics/Text-me-Today.png`).default
-                } url="https://garciae89.github.io/text-me-today/"
+                <PortfolioCard title="Text me Today" assetpath={TextMeToday}
+                 url="https://garciae89.github.io/text-me-today/"
                     githuburl="https://github.com/GarciaE89/text-me-today"
                 />
 
-                <PortfolioCard title="Marketplace" assetpath={require(`../../assets/projects-pics/Markplace.png`).default
-                } url="https://mysterious-garden-73946.herokuapp.com/"
+                <PortfolioCard title="Marketplace" assetpath={MarketPlace} 
+                url="https://mysterious-garden-73946.herokuapp.com/"
                     githuburl="https://github.com/austinxewell/Full-Stack-Marketplace"
                 />
 

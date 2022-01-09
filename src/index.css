@@ -293,3 +293,13 @@ a {
 .navActive {
   color: var(--secondary);
 }
+.center{
+  text-align: center;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 50%;
+  height: 350;
+  width: 300;
+}
